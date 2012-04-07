@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2012 Dirk Van Haerenborgh (vhdirk)
+
+	This file is part of Dommel Monitor.
+	
+	Dommel Monitor is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	Dommel Monitor is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with Dommel Monitor. If not, see <http://www.gnu.org/licenses/>.
+	
+	Note:
+ 		Parts of this file originate from Mobile Vikings for Android by
+ 		Lorenzo Bernardi and Ben Van Daele (https://redmine.djzio.be/projects/mvfa)
+-->
+<resources>
+
+    <string-array name="updateFrequency_entries">
+        <item>Disabled</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>36 hours</item>
+        <item>48 hours</item>
+        
+    </string-array>
+    
+    <string-array name="updateFrequency_values">
+        <item>-1</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>25200000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+        <item>129600000</item>
+        <item>172800000</item>
+        
+    </string-array>
+    
+    <string-array name="widget_actions">
+        <item>Open application</item>
+        <item>Update usage</item>
+    </string-array>
+    
+    <string-array name="widget_actions_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+<!-- 
+    <string-array name="widget_background">
+        <item>Black</item>
+        <item>Semi-transparent</item>
+    </string-array>
+    <string-array name="widget_background_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array> -->
+
+</resources>
