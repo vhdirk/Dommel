@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2012 Dirk Van Haerenborgh (vhdirk)
+
+	This file is part of Dommel Monitor.
+	
+	Dommel Monitor is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	Dommel Monitor is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with Dommel Monitor. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/credentials_preferences" >
+        <EditTextPreference
+            android:dialogTitle="@string/dialog_title_username_preference"
+            android:key="username"
+            android:title="@string/title_username_preference" />
+        <EditTextPreference
+            android:dialogTitle="@string/dialog_title_password_preference"
+            android:key="password"
+            android:password="true"
+            android:title="@string/title_password_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general_preferences" >
+        <ListPreference
+            android:defaultValue="86400000"
+            android:entries="@array/updateFrequency_entries"
+            android:entryValues="@array/updateFrequency_values"
+            android:key="update_frequency"
+            android:title="@string/title_updateFrequency_preference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/widget_preferences" >
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/widget_actions"
+            android:entryValues="@array/widget_actions_values"
+            android:key="widget_action"
+            android:title="@string/widget_action" />
+        <!--
+             <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/widget_background"
+            android:entryValues="@array/widget_background_values"
+            android:key="widget_background"
+            android:title="@string/widget_background" />
+        -->
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:key="pref_category_about"
+        android:title="@string/about_preferences" >
+        <PreferenceScreen
+            android:summary="@string/author_name"
+            android:title="@string/title_author_preference" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_author_page" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="donate_action"
+            android:summary="@string/text_donate_preference"
+            android:title="@string/title_donate_preference" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_donate_page" />
+        </PreferenceScreen>
+                
+    </PreferenceCategory>
+
+</PreferenceScreen>
