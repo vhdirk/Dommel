@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="net.qvex.dommel">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="net.qvex.dommel.MainActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="net.qvex.dommel.SettingsActivity"/>
+
+        <service android:exported="false" android:name="net.qvex.dommel.data.DommelDataService"/>
+
+        <!--<receiver android:name="net.qvex.dommel.data.OnAlarmReceiver" />-->
+
+        <receiver android:name="net.qvex.dommel.widget.WidgetProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_providerinfo"/>
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="net.qvex.dommel.widget.onWidgetClick"/>
+                <action android:name="net.qvex.dommel.data.Message.Status"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+
+
+
+
+</manifest>

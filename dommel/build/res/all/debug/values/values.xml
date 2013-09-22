@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/arrays.xml -->
+    <string-array name="updateFrequency_entries">
+        <item>Disabled</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>36 hours</item>
+        <item>48 hours</item>
+    </string-array>
+    <string-array name="updateFrequency_values">
+        <item>-1</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>25200000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+        <item>129600000</item>
+        <item>172800000</item>
+    </string-array>
+    <string-array name="widget_actions">
+        <item>Open application</item>
+        <item>Update usage</item>
+    </string-array>
+    <string-array name="widget_actions_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/bools.xml -->
+    <bool name="is_donate_version">false</bool>
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/colors.xml -->
+    <color name="actionbar_title_color">#545243</color>
+    <color name="widget_failure_color">#545243</color>
+    <color name="widget_success_color">#545243</color>
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/attrs.xml -->
+    <declare-styleable name="AppTheme">
+        <attr name="actionbarCompatTitleStyle" format="reference" />
+        <attr name="actionbarCompatItemStyle" format="reference" />
+        <attr name="actionbarCompatItemHomeStyle" format="reference" />
+        <attr name="actionbarCompatProgressIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/dimens.xml -->
+    <dimen name="action_button_home_width">56dp</dimen>
+    <dimen name="action_button_min_width">56dp</dimen>
+    <dimen name="action_button_width">48dp</dimen>
+    <dimen name="action_height">48dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="indeterminate_progress_size">32dp</dimen>
+    <dimen name="widget_margin">13dp</dimen>
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/ids.xml -->
+    <item name="actionbar_compat" type="id"/>
+    <item name="actionbar_compat_item_refresh" type="id"/>
+    <item name="actionbar_compat_item_refresh_progress" type="id"/>
+    <item name="actionbar_compat_title" type="id"/>
+    <item name="blocks_now" type="id"/>
+    <item name="blocks_ruler" type="id"/>
+    <item name="dialog_discard_confirm" type="id"/>
+    <item name="dialog_moderator" type="id"/>
+    <item name="fragment_session_detail" type="id"/>
+    <item name="fragment_sessions" type="id"/>
+    <item name="fragment_vendor_detail" type="id"/>
+    <item name="fragment_vendors" type="id"/>
+    <item name="menu_refresh" type="id"/>
+    <item name="menu_refresh_progress" type="id"/>
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/strings.xml -->
+    <plurals name="days_left">
+        <item quantity="one">One day left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+
+    <string name="about_preferences">About</string>
+    <string name="app_name">dommel</string>
+    <string name="author_name">Dirk Van Haerenborgh</string>
+    <string name="credentials_preferences">Credentials</string>
+    <string name="dialog_title_password_preference">Password</string>
+    <string name="dialog_title_username_preference">Username</string>
+    <string name="exception_message">Could not connect. Make sure your internet connection is working and your credentials are correct. [error: %s]</string>
+    <string name="general_preferences">General</string>
+    <string name="lbl_daysLeft">Days: </string>
+    <string name="lbl_lastUpdate">Last update: </string>
+    <string name="lbl_resetDate">Reset date: </string>
+    <string name="lbl_volumeUsed">Volume used: </string>
+    <string name="megabyte"> MB</string>
+    <string name="menu_about">About</string>
+    <string name="menu_donate">Donate</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_settings">Settings</string>
+    <string name="settings_widget_action">%s when the widget is tapped.</string>
+    <string name="settings_widget_background">Widget background color: %s</string>
+    <string name="success_message">Usage data successfully updated.</string>
+    <string name="summary_password_preference">Password</string>
+    <string name="summary_username_preference">Username</string>
+    <string name="text_donate_preference">Express your support and help development</string>
+    <string name="title_author_preference">Author</string>
+    <string name="title_donate_preference">Donate</string>
+    <string name="title_password_preference">Password</string>
+    <string name="title_updateFrequency_preference">Auto update frequency</string>
+    <string name="title_username_preference">Username</string>
+    <string name="url_author_page">http://qvex.blogspot.com</string>
+    <string name="url_donate_page">market://details?id=net.qvex.dommel_donate</string>
+    <string name="widget_action">Widget tap action</string>
+    <string name="widget_background">Widget color</string>
+    <string name="widget_configure_instructions">This text will be shown before the date in our example widget.</string>
+    <string name="widget_preferences">Widget preferences</string>
+    <string name="widget_text_format"><ns1:g id="prefix">%1$s</ns1:g>: <ns1:g id="time">%2$s</ns1:g></string>
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values/styles.xml -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="android:style/Theme.Light">
+        <item name="android:windowTitleSize">@dimen/action_height</item>
+        <item name="android:windowContentOverlay">@drawable/actionbar_shadow</item>
+
+        <!-- for programmatic instantiation -->
+        <item name="android:icon">@drawable/home</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Vertical">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_vertical</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minWidth">1dip</item>
+        <item name="android:maxWidth">12dip</item>
+    </style>
+
+</resources>

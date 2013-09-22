@@ -1,0 +1,27 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1379855487000 393 94b120d5a8db2b669044c79b6a494c5081a67cb9 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$plurals.class
+1379855487000 616 3244e2c0db9a0df7d790edc0e2a589b342217660 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$style.class
+1379859113000 7573 7c2f109b81f9a46708a35ba9a8bd38fbb24ac197 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/MainActivity.class
+1379855487000 2683 ab9ba13b0e24058caeb383ea610a582239ce8af9 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$drawable.class
+1379855487000 901 48e356690c7b9294dd00bf33033b16428bb5bf07 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$styleable.class
+1379855487000 1855 35c5b9165ad517746f9a65b72594d26b0383298c /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$string.class
+1379858743000 2566 c3646503e161a154716f60b4a2412777d5415879 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/MainActivity$1.class
+1379855487000 1027 4412bd088062bd5a936427feddedcf0b2c0a9e5f /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/SettingsActivity.class
+1379855487000 379 9a869da6dbfacd05f1be9d1f339f66543b4b730a /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$menu.class
+1379855487000 307 636708c567d9d93bb9b007d7fdae363c36b83dd5 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/data/DataServiceResultReceiver$Receiver.class
+1379855487000 392 2f57ad861bb7009e406da12aa6cd10823e235bb2 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$bool.class
+1379855487000 530 f88b3c186d16093260224f2de54f8793fb4f5072 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$array.class
+1379855487000 923 2e78f957e66ba975b6348ed1e274182e27c36cb5 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R.class
+1379855487000 480 d5b90db61cd269956efd538e67c99fc88521d7d3 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$layout.class
+1379855487000 4966 febe967fb7e94dde78fcc092813480a3206a4448 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/SettingsFragment.class
+1379855487000 1010 599027fdedcc7ace96d13b69d2c5e7c82ff44714 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/data/DataServiceResultReceiver.class
+1379855487000 6859 807faed66488fd0e65feceecd861506e08c98a08 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/widget/WidgetProvider.class
+1379855487000 1830 77e0c9131950685fbe2a33e689f8025071690128 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$id.class
+1379855487000 466 5c22bbb2e58f9c28b8ac353cdb0aee80b41c5a1f /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$xml.class
+1379855487000 487 8a027efb8a84aaa3a28f670fd6508602b32dd646 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$color.class
+1379859499000 11876 be0e578a2236609580ea35d38562400bd9d5bb95 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/data/DommelDataService.class
+1379855487000 460 8f3e693162f214bf97001f5dd127dd4ecfb5cb2d /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/BuildConfig.class
+1379855487000 635 15b733b97e9b7a3fc467eaf644553e69974451b0 /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$attr.class
+1379855487000 715 7ab2a16d5352ab759344b6a5b49c452e7babc50b /home/dvhaeren/development/android/Dommel/dommel/build/classes/debug/net/qvex/dommel/R$dimen.class

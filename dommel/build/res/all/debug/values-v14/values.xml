@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values-v14/dimens.xml -->
+    <dimen name="widget_margin">8dp</dimen>
+
+</resources>

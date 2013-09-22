@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2012 Dirk Van Haerenborgh (vhdirk)
+
+	This file is part of Dommel Monitor.
+	
+	Dommel Monitor is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	Dommel Monitor is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with Dommel Monitor. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:background="@drawable/appwidget_dark_bg_clickable"
+    android:padding="0dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="6dp" >
+
+        <ProgressBar
+            android:id="@+id/widget_volumeUsed"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="10dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:paddingLeft="2dp" >
+
+            <TextView
+                android:id="@+id/widget_txtUsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/widget_content_save_dark"
+                android:drawablePadding="1dp" />
+
+            <TextView
+                android:id="@+id/widget_txtDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/widget_collections_go_to_today_dark"
+                android:drawablePadding="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/dommel_alpha_gray"
+        android:translationX="5dp"
+        android:translationY="3dp"
+        android:alpha="0.9"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        />
+
+</FrameLayout><!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/layout/widget.xml -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/values-v13/styles.xml -->
+    <style name="ActionBarTitle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_title_color</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Vertical" parent="@style/Widget.ProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_vertical_holo_dark</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minWidth">13dip</item>
+        <item name="android:maxWidth">13dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/dommel_alpha"
+    android:gravity="bottom|right" /><!-- From: file:/home/dvhaeren/development/android/Dommel/dommel/src/main/res/drawable/appwidget_bg_logo.xml -->
